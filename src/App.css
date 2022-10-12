@@ -1,0 +1,7 @@
+.nav-item:hover{
+    background-color: white;
+    
+}
+.navbar-brand:hover{
+    color: black !important;
+}

@@ -9,11 +9,7 @@ function App() {
         <Navbar title = "User App"/>
 
       </div>
-      <User
-      name = "Osman Uğur Demirer"
-      salary = "5000"
-      department = "Bilişim"
-    />
+      
 
     </div>
   );
