@@ -1,7 +1,19 @@
 .nav-item:hover{
-    background-color: white;
+    background-color: black;
     
 }
 .navbar-brand:hover{
-    color: black !important;
+    color: white !important;
+}
+.homeSection{
+    width: auto;
+    height: auto;
+    margin-top: 15rem;
+}
+.portfolioSection{
+    margin-top: 4rem;
+}
+.aboutSection{
+    margin-top:4rem;
+    padding: 4rem;
 }
