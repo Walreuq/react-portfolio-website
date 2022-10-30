@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>
+      <div className="bg-secondary">
         <Navbar title = "User App"/>
         <Homepage/>
         <Portfolio/>

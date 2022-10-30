@@ -1,3 +1,8 @@
+
+
+/* Navbar */
+
+
 .nav-item:hover{
     background-color: black;
     
@@ -5,14 +10,29 @@
 .navbar-brand:hover{
     color: white !important;
 }
+
+
+/* Homepage */
+
+
+
 .homeSection{
     width: auto;
     height: auto;
     margin-top: 15rem;
 }
+
+
+
+/* Porfolio */
+
 .portfolioSection{
     margin-top: 4rem;
 }
+
+
+/* About */
+
 .aboutSection{
     margin-top:4rem;
     padding: 4rem;

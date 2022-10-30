@@ -2,12 +2,19 @@ import React from 'react'
 
 const About=() => {
   return (
-    <section id="about" className="aboutSection">
-        <div>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+    <section id="about" className="aboutSection ">
+      <div className=" text-center row border rounded bg-warning p-4">
+        <div className="col">
+          <h1 className="mb-4">Hakkımda</h1>
+            <p>Merhaba, ismim Osman Uğur Demirer.</p>
+            <p className="text-dark">13 yaşımdan beri bilgisayara olan ilgim ve alakam dolayısıyla bilişim sektöründe kendimi geliştirme hayali kurdum ve bu hayalin gerçekleştirmesi için de boş vakitlerimde fırsat buldukça kendimi geliştirecek bilgilere ulaşmaya çalıştım, bu uğraşım ve isteğim halen devam etmektedir.</p>
+            <p>Bilişim tutkumdan bağımsız olarak lise hayatımda sigortacılık eğitimi aldım. Yaklaşık 3 yıl önce bilişim alanında tecrübe kazanmaya karar verdim ve Climax Host adlı hosting şirketinde 1.5 yıl çalıştım. Bu sayede kendimi network, yazılım, işletim sistemleri alanlarında geliştirme fırsatı buldum.</p>
+            <p>Gençliğime ve öğrenme azmime güvenerek kendimi bilişim alanında daha çok geliştirerek, yeni iş imkanları bulmak ve bunların bana katacağı tecrübeleri yaşamak istiyorum.</p>
         </div>
+        <div className="col">
+
+        </div>
+      </div>
     </section>
   )
 }
