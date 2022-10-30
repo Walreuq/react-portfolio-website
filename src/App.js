@@ -1,4 +1,4 @@
-import User from "./components/User"
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Homepage from "./components/Homepage"
 import Portfolio from "./components/Portfolio"
@@ -15,6 +15,7 @@ function App() {
         <Portfolio/>
         <About/>
         <Contact/>
+        <Footer/>
       </div>
       
 

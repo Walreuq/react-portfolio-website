@@ -4,7 +4,7 @@ import SaygwareLogo from '../images/swlogo.png';
 const About=() => {
   return (
     <section id="about" className="aboutSection ">
-      <div className=" text-center row border rounded bg-warning p-4">
+      <div className=" text-center row border border-dark rounded bg-warning p-4">
         <div className="col">
           <h1 className="mb-4">Hakkımda</h1>
             <p>Merhaba, ismim Osman Uğur Demirer.</p>
@@ -16,9 +16,10 @@ const About=() => {
           <div className="">
             <img src={SaygwareLogo} />
           </div>
-          <div>
-            <h1>Website:</h1><p ><a className="fs-3 text-decoration-none text-dark" href="https://saygware.com">Saygware.com</a></p>
+          <div className="d-flex justify-content-around">
+            <h1>Website:</h1><p><a className="fs-3 text-decoration-none text-dark" href="https://saygware.com">Saygware.com</a></p>
           </div>
+          
         </div>
 
       </div>
