@@ -1,4 +1,5 @@
 import React from 'react'
+import SaygwareLogo from '../images/swlogo.png';
 
 const About=() => {
   return (
@@ -11,9 +12,15 @@ const About=() => {
             <p>Bilişim tutkumdan bağımsız olarak lise hayatımda sigortacılık eğitimi aldım. Yaklaşık 3 yıl önce bilişim alanında tecrübe kazanmaya karar verdim ve Climax Host adlı hosting şirketinde 1.5 yıl çalıştım. Bu sayede kendimi network, yazılım, işletim sistemleri alanlarında geliştirme fırsatı buldum.</p>
             <p>Gençliğime ve öğrenme azmime güvenerek kendimi bilişim alanında daha çok geliştirerek, yeni iş imkanları bulmak ve bunların bana katacağı tecrübeleri yaşamak istiyorum.</p>
         </div>
-        <div className="col">
-
+        <div className="col d-flex flex-column justify-content-around">
+          <div className="">
+            <img src={SaygwareLogo} />
+          </div>
+          <div>
+            <h1>Website:</h1><p ><a className="fs-3 text-decoration-none text-dark" href="https://saygware.com">Saygware.com</a></p>
+          </div>
         </div>
+
       </div>
     </section>
   )
