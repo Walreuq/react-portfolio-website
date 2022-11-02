@@ -1,12 +1,12 @@
 import React from "react";
-import HeaderLogo from '../images/logo192.png';
+// import HeaderLogo from '../images/logo192.png';
 
 const Navbar =(props) =>{
     return(
         <div className="navbar navbar-expand-lg bg-light sticky-top ">
             <div className="container-fluid ">
                     <a href="#homepage">
-                        <img src={HeaderLogo} alt="image" className="nav-item border rounded p-2 "/>
+                        {/* <img src={HeaderLogo} alt="image" className="nav-item border rounded p-2 "/> */}
                     </a>
                     <ul  className="navbar-nav me-auto mb-2 mb-lg-0 navbar-text d-flex gap-3 mx-auto ">
                         <a className="navbar-brand " href="#homepage">

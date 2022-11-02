@@ -11,26 +11,24 @@ class User extends Component {
         </div>
         <div className="col d-flex justify-content-center">
           <ul class="wrapper">
-            <li class="icon facebook">
-              <span class="tooltip">Facebook</span>
-              <span><i class="fab fa-facebook-f"></i></span>
-            </li>
-            <li class="icon twitter">
-              <span class="tooltip">Twitter</span>
-              <span><i class="fab fa-twitter"></i></span>
-            </li>
-            <li class="icon instagram">
-              <span class="tooltip">Instagram</span>
-              <span><i class="fab fa-instagram"></i></span>
-            </li>
-            <li class="icon github">
-              <span class="tooltip">Github</span>
-              <span><i class="fab fa-github"></i></span>
-            </li>
-            <li class="icon youtube">
-              <span class="tooltip">Youtube</span>
-              <span><i class="fab fa-youtube"></i></span>
-            </li>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/ugurdmrer">
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span><i class="fab fa-twitter"></i></span>
+              </li>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ugurdmrer/">
+              <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Walreuq">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><i class="fab fa-github"></i></span>
+              </li>
+              </a>
           </ul>
         </div>
         

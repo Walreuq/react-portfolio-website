@@ -13,8 +13,8 @@ const About=() => {
             <p>Gençliğime ve öğrenme azmime güvenerek kendimi bilişim alanında daha çok geliştirerek, yeni iş imkanları bulmak ve bunların bana katacağı tecrübeleri yaşamak istiyorum.</p>
         </div>
         <div className="col d-flex flex-column justify-content-around">
-          <div className="">
-            <img src={SaygwareLogo} />
+          <div >
+            <img className="sw-logo" src={SaygwareLogo} />
           </div>
           <div className="d-flex justify-content-around">
             <h1>Website:</h1><p><a className="fs-3 text-decoration-none text-dark" href="https://saygware.com">Saygware.com</a></p>

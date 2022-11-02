@@ -9,6 +9,7 @@
 }
 body{
     font-family: 'Cyber', sans-serif;
+    width: auto;
 }
 
 
@@ -71,13 +72,14 @@ img::selection{
     font-size: var(--font-size);
     outline: transparent;
     letter-spacing: 2px;
-    position: relative;
     font-weight: 700;
     border: 0;
-    min-width: 300px;
+    min-width: 200px;
     height: 75px;
     line-height: 75px;
     transition: background 0.2s;
+    position: relative;
+
   }
   
   .cybr-btn:hover {
@@ -232,7 +234,7 @@ img::selection{
 .portfolioSection{
     margin-top: 4rem;
     width: auto;
-    height: 600px;
+    height: auto;
     border: 2px solid black;
     border-radius: 9px;
     display: grid;
@@ -248,6 +250,10 @@ img::selection{
 .aboutSection{
     margin-top:4rem;
     padding: 4rem;
+}
+.sw-logo{
+  width: 13rem !important;
+  
 }
 
 
@@ -275,7 +281,6 @@ img::selection{
   }
   
   .wrapper .icon {
-    position: relative;
     background: #ffffff;
     border-radius: 50%;
     padding: 15px;
